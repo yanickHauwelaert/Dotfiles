@@ -1,0 +1,34 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.8); /* Dark Transparent */
+    border-bottom: 2px solid rgba(137, 180, 250, 0.5); /* Blue glow bottom */
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#cpu, #memory, #clock, #pulseaudio, #network, #battery, #tray {
+    padding: 0 15px;
+    margin: 4px 4px;
+    background-color: #313244;
+    border-radius: 10px;
+}
+
+#clock {
+    color: #f5c2e7; /* Pink text for clock */
+}
+
+#custom-launcher {
+    font-size: 20px;
+    margin-left: 8px;
+    color: #89b4fa;
+}
+
+#cpu { color: #fab387; } /* Orange for CPU */
+#memory { color: #a6e3a1; } /* Green for RAM */
+#battery { color: #f9e2af; } /* Yellow for Battery */

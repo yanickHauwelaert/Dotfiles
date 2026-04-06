@@ -1,0 +1,36 @@
+
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": ["cpu","memory","custom/launcher"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "battery", "tray"],
+
+    "custom/launcher": {
+        "format": " ", 
+        "on-click": "wofi --show drun",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%d/%m/%Y %H:%M} "
+    },
+    "cpu": { "format": "{usage}% " },
+    "memory": { "format": "{}% " },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-icons": ["", "", ""],
+	"on-click": "systemsettings kcm_pulseaudio"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-disconnected": "Disconnected ⚠",
+	"on-click": "systemsettings kcm_networkmanagement"
+	
+    }
+}
+

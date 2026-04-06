@@ -1,0 +1,9 @@
+width=400
+height=500
+location=center
+show=drun
+prompt=Search Apps...
+filter_rate=100
+allow_images=true
+image_size=24
+term=konsole

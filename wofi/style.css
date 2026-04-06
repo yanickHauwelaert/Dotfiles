@@ -38,6 +38,7 @@ window {
 #entry:selected {
     background-color: #991b1b; /* Dark Red */
     border: 1px solid #ef4444; /* Bright Red edge */
+    box-shadow: 0px 0px 15px rgba(239, 68, 68, 0.5); /* This is the "Haki Glow" */
 }
 #text:selected {
     color: #ffffff;

@@ -36,10 +36,9 @@ window {
 }
 
 #entry:selected {
-    background-color: #89b4fa;
-    border-radius: 10px;
+    background-color: #991b1b; /* Dark Red */
+    border: 1px solid #ef4444; /* Bright Red edge */
 }
-
 #text:selected {
-    color: #11111b;
+    color: #ffffff;
 }

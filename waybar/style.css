@@ -5,18 +5,20 @@
 }
 
 window#waybar {
-    background-color: rgba(26, 27, 38, 0.8); /* Dark Transparent */
-    border-bottom: 2px solid rgba(137, 180, 250, 0.5); /* Blue glow bottom */
-    color: #cdd6f4;
+    background-color: rgba(15, 15, 15, 0.85); /* Ink Black */
+    border-bottom: 2px solid #991b1b; /* Dried Blood Red */
+    color: #fca5a5;
     transition-property: background-color;
     transition-duration: .5s;
 }
 
 #cpu, #memory, #clock, #pulseaudio, #network, #battery, #tray {
-    padding: 0 15px;
-    margin: 4px 4px;
-    background-color: #313244;
-    border-radius: 10px;
+    background-color: rgba(153, 27, 27, 0.6); /* Translucent Red */
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin: 4px 2px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #clock {

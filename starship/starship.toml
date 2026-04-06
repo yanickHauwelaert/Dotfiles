@@ -1,0 +1,39 @@
+format = """
+[](#991b1b)\
+$os\
+$username\
+[](bg:#450a0a fg:#991b1b)\
+$directory\
+[](fg:#450a0a bg:#1a1b26)\
+$git_branch\
+$git_status\
+[](fg:#1a1b26)\
+$character
+"""
+
+[os]
+disabled = false
+format = "[$symbol]($style)"
+style = "bg:#991b1b fg:#ffffff"
+
+[os.symbols]
+Arch = "󰣇 "
+
+[username]
+show_always = true
+style_user = "bg:#991b1b fg:#ffffff"
+format = '[$user]($style)'
+
+[directory]
+style = "bg:#450a0a fg:#fca5a5"
+format = "[ $path ]($style)"
+truncation_length = 3
+
+[git_branch]
+symbol = " "
+style = "bg:#1a1b26 fg:#ef4444"
+format = '[ $symbol $branch ]($style)'
+
+[character]
+success_symbol = "[ 󰁔](bold #ef4444)"
+error_symbol = "[ 󰁔](bold #991b1b)"

@@ -13,7 +13,9 @@
         "tooltip": false
     },
     "clock": {
-        "format": "{:%d/%m/%Y %H:%M} "
+        "format": "{:%d/%m/%Y %H:%M} ",
+	"tooltip": true,
+   	 "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"	
     },
     "cpu": { "format": "{usage}% " },
     "memory": { "format": "{}% " },

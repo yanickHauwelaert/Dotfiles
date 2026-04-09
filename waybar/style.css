@@ -31,6 +31,19 @@ window#waybar {
     color: #89b4fa;
 }
 
+tooltip {
+    background: rgba(15, 15, 15, 0.9); /* Match your bar's ink black */
+    border: 1px solid #991b1b;        /* Deep red border */
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: #fca5a5; /* Soft red text */
+    padding: 5px;
+    color: #ffffff;
+    padding: 8px;
+}
+
 #cpu { color: #fab387; } /* Orange for CPU */
 #memory { color: #a6e3a1; } /* Green for RAM */
 #battery { color: #f9e2af; } /* Yellow for Battery */
